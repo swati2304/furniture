@@ -1,0 +1,54 @@
+h1{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(243, 100, 48);
+    color: violet;
+    padding: 5px;
+}
+.anchor
+{
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.btn-size
+{
+    border: 1px solid blueviolet;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    color: rgb(226, 43, 171);
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 630px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.btn-size:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+    border-radius: 30px;
+}
+body{
+    background-color: rgb(250, 227, 192);
+}
+.img-off
+{
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+.para
+{
+    color: darkmagenta;
+    font-family: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
