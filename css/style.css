@@ -52,3 +52,83 @@ body{
     font-family: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
+.container{
+    background-color: rgb(19, 18, 16);
+    height: 700px;
+    width: 100%;
+}
+.img
+{
+    height: 300px;
+    width: 800px;
+    display: block;
+}
+.heading
+{
+    color: #37c318;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#main, th, td
+{
+    border: 2px solid rebeccapurple;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+#main td, th
+{
+    text-align: center;
+}
+.A {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(41, 216, 59);
+}
+.A:hover {
+    color: darkmagenta;
+    border-radius: 20px;
+    transform: 3s;
+}
+.card
+{
+    display: flex;
+    flex-direction: row;
+}
+.kitchen-card
+{
+    height: 300px;
+    width: 250px;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.kitchen-img{
+    display: block;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.main-div
+{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    height: 350px;
+    width: 150px;
+}
+.right{
+    height: 500px;
+    width: 1400px;
+    background-color: rgb(147, 129, 116);
+}
